@@ -20,6 +20,21 @@ nav a{
   text-decoration: none;
 }
 
-#hjem:hover{ color: white;
+#oplevelser:hover{ color: #009899;
 
+}
+
+
+ #shopping:hover{ color: #99C941;
+
+  }
+
+#spis:hover {color: #EDCD27;
+}
+
+
+#omos:hover {color: #FD3301;
+}
+
+#kontakt:hover {color: #F8B5D1;
 }
