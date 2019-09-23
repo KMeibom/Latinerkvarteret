@@ -20,6 +20,6 @@ nav a{
   text-decoration: none;
 }
 
-nav a :hover{ color: white;
+#hjem:hover{ color: white;
 
 }
