@@ -38,21 +38,53 @@ nav a{
 
 }
 
-#navbar li{
-  border:1px solid #555;
-}
 
 
-ul li{
+
+ul li #oplevelser{
   display: inline-block;
   list-style-type: none;
   padding:20px 30px;
+  margin:20px 30px;
+border:1px solid #555;
+}
 
+
+ul li #shopping{
+  display: inline-block;
+  list-style-type: none;
+  padding:20px 30px;
+  margin:20px 30px;
+border:1px solid #555;
+}
+
+ul li #spis{
+  display: inline-block;
+  list-style-type: none;
+  padding:20px 30px;
+  margin:20px 30px;
+border:1px solid #555;
+}
+
+ul li #omos{
+  display: inline-block;
+  list-style-type: none;
+  padding:20px 30px;
+  margin:20px 30px;
+border:1px solid #555;
+}
+
+ul li #kontakt{
+  display: inline-block;
+  list-style-type: none;
+  padding:20px 30px;
+  margin:20px 30px;
+border:1px solid #555;
 }
 
 
 /* DE FORSKELLIGE HOVER FARVER*/
-ul li #oplevelser:hover{
+ ul li #oplevelser:hover{
   background: #009899;
 }
 
@@ -62,7 +94,6 @@ ul li #shopping:hover{ background:#99C941;
 
 ul li #spis:hover {background: #EDCD27;
 }
-
 
 ul li #omos:hover {background: #FD3301;
 }
