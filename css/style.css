@@ -24,28 +24,36 @@
 #navbar {
   padding: 15px;}
 
-#navbar {background-color: #F3F3F3;
+#navbar {background-color: white;
 text-align: center;}
+
+ul li{
+  display: inline-block;
+  list-style-type: none;
+  padding:20px 30px;
+}
+
+
 
 nav a{
   color: black;
   text-decoration: none;
 }
 
-#oplevelser:hover{ color: #009899;
-
+ul li #oplevelser:hover{
+  background: #009899;
 }
 
- #shopping:hover{ color: #99C941;
+ul li #shopping:hover{ background:#99C941;
 
   }
 
-#spis:hover {color: #EDCD27;
+ul li #spis:hover {background: #EDCD27;
 }
 
 
-#omos:hover {color: #FD3301;
+ul li #omos:hover {background: #FD3301;
 }
 
-#kontakt:hover {color: #F8B5D1;
+ul li #kontakt:hover {background: #F8B5D1;
 }
