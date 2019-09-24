@@ -24,9 +24,9 @@
 }
 
 #navbar {
-  padding: 15px;}
+  padding: none;}
 
-#navbar {background-color: white;
+#navbar {background-color: #F3F3F3F3;
 text-align: center;}
 
 
@@ -44,9 +44,9 @@ nav a{
 ul li #oplevelser{
   display: inline-block;
   list-style-type: none;
-	padding:20px 20px;
-  margin:20px 20px;
-border:1px solid #555;
+	padding:50px 25px;
+
+
 }
 
 
@@ -54,33 +54,31 @@ border:1px solid #555;
 ul li #shopping{
   display: inline-block;
   list-style-type: none;
-  padding:20px 30px;
-  margin:20px 30px;
-border:1px solid #555;
+  padding:50px 40px;
+
+
 }
 
 ul li #spis{
   display: inline-block;
   list-style-type: none;
-  padding:20px 20px;
-  margin:20px 20px;
-border:1px solid #555;
+  padding:50px 25px;
+
 }
 
 ul li #omos{
   display: inline-block;
   list-style-type: none;
-  padding:20px 40px;
-  margin:20px 40px;
-border:1px solid #555;
+  padding:50px 50px;
+
 }
 
 ul li #kontakt {
   display: inline-block;
   list-style-type: none;
-  padding:20px 30px;
-  margin:20px 30px;
-border:1px solid #555;
+  padding:50px 40px;
+
+
 }
 
 
