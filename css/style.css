@@ -13,6 +13,7 @@
 #navbar{
   text-transform:uppercase;
 	font-family: montserrat;
+
 }
 
 #navbar li{
@@ -117,8 +118,8 @@ ul li #kontakt:hover {background: #F8B5D1;
 
 /*BURGER MENUEN */
 
-.burger div{
-	display: none;
+.burger div{display: none;
+
 }
 
 
