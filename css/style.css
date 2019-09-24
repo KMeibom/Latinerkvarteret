@@ -48,6 +48,7 @@ ul li #oplevelser{
 	padding:50px 25px;
 
 
+
 }
 
 
@@ -86,17 +87,70 @@ ul li #kontakt {
 /* DE FORSKELLIGE HOVER FARVER*/
  ul li #oplevelser:hover{
   background: #009899;
+	font-weight: bold;
 }
 
 ul li #shopping:hover{ background:#99C941;
+	font-weight: bold;
 
   }
 
 ul li #spis:hover {background: #EDCD27;
+	font-weight: bold;
 }
 
 ul li #omos:hover {background: #FD3301;
+	font-weight: bold;
 }
 
 ul li #kontakt:hover {background: #F8B5D1;
+	font-weight: bold;
+}
+
+
+
+/*BURGER MENUEN */
+
+.burger div{
+	display: none;
+}
+
+
+.burger div{
+	width: 25px;
+	height: 3px;
+	background-color: black;
+	margin: 5px;
+}
+
+
+@media screen and (max-width:1024px){
+	#navbar{
+		width: 60%
+	}
+}
+
+@media screen and (max-width:768px){
+body{
+	overflow-x: hidden;
+}
+	#navbar{
+		position: absolute;
+		right: 0px;
+		height: 92vh;
+		top: 8vh;
+		background-color: #F3F3F3F3;
+		display:flex;
+		flex-direction: column;
+		align-items: center;
+		width: 30%;
+		transform: translateX(100%);
+	}
+	#navbar li{
+		opacity:0;
+	}
+	.burger{
+		display: block;
+	}
+
 }
