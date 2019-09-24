@@ -1,27 +1,29 @@
 @charset "utf-8";
 /* CSS Document */
-*{
+*
+{
 	margin: 0px;
 	padding: 0px;
 	box-sizing: border-box;
 }
 
-.container{
+.container
+{
 	margin:auto;
 }
 
-#navbar{
+#navbar
+{
   text-transform:uppercase;
 	font-family: montserrat;
 
 }
 
-#navbar li{
+#navbar li
+{
   display:inline;
   padding-right:20px;
   list-style:none;
-
-
 }
 
 .menu
@@ -41,15 +43,12 @@
 	list-style:none;
 }
 
-#navbar {
-  padding: none;
+#navbar
+{
+padding: none;
+background-color: #F3F3F3F3;
+text-align: center;
 }
-
-#navbar {background-color: #F3F3F3F3;
-text-align: center;}
-
-
-
 
 nav a
 {
@@ -61,33 +60,38 @@ nav a
 
 /*STØRRELSEN PÅ DE FORSKELLIGE MENU KNAPPER */
 
-ul li #oplevelser{
-  display: inline-block;
-  list-style-type: none;
-	padding:50px 25px;
-}
-
-
-
-ul li #shopping{
-  display: inline-block;
-  list-style-type: none;
-  padding:50px 40px;
-}
-
-ul li #spis{
+ul li #oplevelser
+{
   display: inline-block;
   list-style-type: none;
   padding:50px 25px;
 }
 
-ul li #omos{
+
+
+ul li #shopping
+{
+  display: inline-block;
+  list-style-type: none;
+  padding:50px 40px;
+}
+
+ul li #spis
+{
+  display: inline-block;
+  list-style-type: none;
+  padding:50px 25px;
+}
+
+ul li #omos
+{
   display: inline-block;
   list-style-type: none;
   padding:50px 50px;
 }
 
-ul li #kontakt {
+ul li #kontakt
+{
   display: inline-block;
   list-style-type: none;
   padding:50px 40px;
@@ -95,39 +99,55 @@ ul li #kontakt {
 
 
 /* DE FORSKELLIGE HOVER FARVER*/
- ul li #oplevelser:hover{
+ ul li #oplevelser:hover
+{
   background: #009899;
 	font-weight: bold;
 }
 
-ul li #shopping:hover{ background:#99C941;
-	font-weight: bold;
-  }
-
-ul li #spis:hover {background: #EDCD27;
+ul li #shopping:hover
+{
+	background:#99C941;
 	font-weight: bold;
 }
 
-ul li #omos:hover {background: #FD3301;
+ul li #spis:hover
+{
+	background: #EDCD27;
 	font-weight: bold;
 }
 
-ul li #kontakt:hover {background: #F8B5D1;
+ul li #omos:hover 
+{
+	background: #FD3301;
 	font-weight: bold;
 }
 
-@media screen and (max-width:1024px){
+ul li #kontakt:hover
+{
+	background: #F8B5D1;
+	font-weight: bold;
+}
+
+@media screen and (max-width:1024px)
+{
 
 }
 
-@media screen and (max-width:1920px){
+@media screen and (max-width:1920px)
+{
 
 }
-@media screen and (max-width:768px){
-body{
+@media screen and (max-width:768px)
+{
+	
+	body
+	{
 	overflow-x: hidden;
-}
-	#navbar{
+	}
+	
+	#navbar
+	{
 		position: absolute;
 		right: 0px;
 		height: 92vh;
@@ -137,9 +157,10 @@ body{
 		flex-direction: column;
 		align-items: center;
 		width: 30%;
-
 	}
-	#navbar li{
+	
+	#navbar li
+	{
 		opacity:0;
 	}
 }
