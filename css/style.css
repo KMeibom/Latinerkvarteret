@@ -23,13 +23,18 @@
 
 
 }
-.topmenu
+
+.menu
 {
 	display:flex;
 	justify-content: space-around;
 	align-items:center;
+	min-height: 8vh;
+	background-color:#F3F3F3F3;
+	position:stretch;
 }
-.topmenu li
+
+.menu li
 {
 	display:inline;
 	padding-right:20px;
@@ -37,7 +42,8 @@
 }
 
 #navbar {
-  padding: none;}
+  padding: none;
+}
 
 #navbar {background-color: #F3F3F3F3;
 text-align: center;}
@@ -58,9 +64,6 @@ ul li #oplevelser{
   display: inline-block;
   list-style-type: none;
 	padding:50px 25px;
-
-
-
 }
 
 
@@ -69,30 +72,24 @@ ul li #shopping{
   display: inline-block;
   list-style-type: none;
   padding:50px 40px;
-
-
 }
 
 ul li #spis{
   display: inline-block;
   list-style-type: none;
   padding:50px 25px;
-
 }
 
 ul li #omos{
   display: inline-block;
   list-style-type: none;
   padding:50px 50px;
-
 }
 
 ul li #kontakt {
   display: inline-block;
   list-style-type: none;
   padding:50px 40px;
-
-
 }
 
 
@@ -104,7 +101,6 @@ ul li #kontakt {
 
 ul li #shopping:hover{ background:#99C941;
 	font-weight: bold;
-
   }
 
 ul li #spis:hover {background: #EDCD27;
@@ -119,39 +115,17 @@ ul li #kontakt:hover {background: #F8B5D1;
 	font-weight: bold;
 }
 
-
-
-/*BURGER MENUEN */
-
-.burger div{display: none;
-
-}
-
-
-.burger div{
-	width: 25px;
-	height: 3px;
-	background-color: black;
-	margin: 5px;
-}
-
-
 @media screen and (max-width:1024px){
-	#navbar{
-		width: 60%;
-	}
-	.topmenu {
-		width:60%;
-	}
+
 }
 
+@media screen and (max-width:1920px){
+
+}
 @media screen and (max-width:768px){
 body{
 	overflow-x: hidden;
 }
-	.topmenu {
-		width:60%;
-	}
 	#navbar{
 		position: absolute;
 		right: 0px;
@@ -162,13 +136,9 @@ body{
 		flex-direction: column;
 		align-items: center;
 		width: 30%;
-		transform: translateX(100%);
+		
 	}
 	#navbar li{
 		opacity:0;
 	}
-	.burger{
-		display: block;
-	}
-
 }
