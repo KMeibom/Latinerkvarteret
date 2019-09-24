@@ -1,5 +1,11 @@
 @charset "utf-8";
 /* CSS Document */
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
 .container{
 	margin:auto;
 }
@@ -126,7 +132,10 @@ ul li #kontakt:hover {background: #F8B5D1;
 
 @media screen and (max-width:1024px){
 	#navbar{
-		width: 60%
+		width: 60%;
+	}
+	.topmenu {
+		width:60%;
 	}
 }
 
@@ -134,6 +143,9 @@ ul li #kontakt:hover {background: #F8B5D1;
 body{
 	overflow-x: hidden;
 }
+	.topmenu {
+		width:60%;
+	}
 	#navbar{
 		position: absolute;
 		right: 0px;
