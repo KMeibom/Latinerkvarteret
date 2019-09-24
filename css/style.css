@@ -39,15 +39,16 @@ nav a{
 }
 
 
-
+/*STØRRELSEN PÅ DE FORSKELLIGE MENU KNAPPER */
 
 ul li #oplevelser{
   display: inline-block;
   list-style-type: none;
-  padding:20px 30px;
-  margin:20px 30px;
+	padding:20px 20px;
+  margin:20px 20px;
 border:1px solid #555;
 }
+
 
 
 ul li #shopping{
@@ -61,16 +62,16 @@ border:1px solid #555;
 ul li #spis{
   display: inline-block;
   list-style-type: none;
-  padding:20px 30px;
-  margin:20px 30px;
+  padding:20px 20px;
+  margin:20px 20px;
 border:1px solid #555;
 }
 
 ul li #omos{
   display: inline-block;
   list-style-type: none;
-  padding:20px 30px;
-  margin:20px 30px;
+  padding:20px 40px;
+  margin:20px 40px;
 border:1px solid #555;
 }
 
