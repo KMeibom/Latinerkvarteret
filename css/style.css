@@ -23,7 +23,12 @@
 
 
 }
-
+.topmenu
+{
+	display:flex;
+	justify-content: space-around;
+	align-items:center;
+}
 .topmenu li
 {
 	display:inline;
