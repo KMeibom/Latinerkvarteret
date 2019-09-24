@@ -16,15 +16,11 @@
 {
   text-transform:uppercase;
 	font-family: 'Montserrat', sans-serif;
-	display:flex;
-	padding: none;
-background-color: #F3F3F3F3;
-text-align: center;
 }
 
 .logo img
 {
-	max-width: 25%;
+	max-width: 50%;
 	height:auto;
 }
 #navbar li
@@ -51,6 +47,13 @@ text-align: center;
 	list-style:none;
 }
 
+#navbar
+{
+padding: none;
+background-color: #F3F3F3F3;
+text-align: center;
+}
+
 nav a
 {
   color: black;
@@ -66,8 +69,6 @@ ul li #oplevelser
   list-style-type: none;
   padding:50px 25px;
 }
-
-
 
 ul li #shopping
 {
@@ -136,28 +137,12 @@ ul li #kontakt:hover
 
 @media screen and (max-width:1024px)
 {
-		body
-	{
-	overflow-x: hidden;
-	}
-	
-	#navbar
-	{
 
-	}
 }
 
 @media screen and (max-width:1920px)
 {
-		body
-	{
-	overflow-x: hidden;
-	}
-	
-	#navbar
-	{
 
-	}
 }
 @media screen and (max-width:768px)
 {
@@ -175,7 +160,7 @@ ul li #kontakt:hover
 		top: 8vh;
 		background-color: #F3F3F3F3;
 		display:flex;
-		flex-direction:column;
+		flex-direction: column;
 		align-items: center;
 		width: 30%;
 	}
