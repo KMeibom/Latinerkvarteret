@@ -55,7 +55,7 @@ nav a
   text-decoration: none;
 }
 
-/*pik*/
+
 /*STØRRELSEN PÅ DE FORSKELLIGE MENU KNAPPER */
 
 ul li #oplevelser
@@ -101,30 +101,35 @@ ul li #kontakt
 {
   background: #009899;
 	font-weight: bold;
+	color:white;
 }
 
 ul li #shopping:hover
 {
 	background:#99C941;
 	font-weight: bold;
+	color:white;
 }
 
 ul li #spis:hover
 {
 	background: #EDCD27;
 	font-weight: bold;
+	color:white;
 }
 
-ul li #omos:hover 
+ul li #omos:hover
 {
 	background: #FD3301;
 	font-weight: bold;
+	color:white;
 }
 
 ul li #kontakt:hover
 {
 	background: #F8B5D1;
 	font-weight: bold;
+	color:white;
 }
 
 @media screen and (max-width:1024px)
@@ -138,12 +143,12 @@ ul li #kontakt:hover
 }
 @media screen and (max-width:768px)
 {
-	
+
 	body
 	{
 	overflow-x: hidden;
 	}
-	
+
 	#navbar
 	{
 		position: absolute;
@@ -156,7 +161,7 @@ ul li #kontakt:hover
 		align-items: center;
 		width: 30%;
 	}
-	
+
 	#navbar li
 	{
 		opacity:0;
