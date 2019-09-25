@@ -7,9 +7,9 @@
 	box-sizing: border-box;
 }
 
-.container
+.menucontainer
 {
-	margin:auto;
+	margin:0px;
 }
 
 #navbar
@@ -20,9 +20,9 @@
 
 .logo img
 {
-	max-width: 100%;
+	max-width: 90%;
 	height:auto;
-	float:left;
+	margin-left:0.6vh;
 
 }
 #navbar li
@@ -45,13 +45,14 @@ nav
 	align-items:center;
 	min-height: 8vh;
 	background-color:#F3F3F3F3;
-	position:stretch;
+	position:absolute;
 }
 
 .menu li
 {
 	display:inline;
 	list-style:none;
+	
 }
 
 #navbar
@@ -75,35 +76,35 @@ ul li #oplevelser
 {
   display: inline-block;
   list-style-type: none;
-  padding:6.6vh 3.8vh;
+  padding:6.6vh 3.9vh;
 }
 
 ul li #shopping
 {
   display: inline-block;
   list-style-type: none;
-  padding:6.6vh 6.08vh;
+  padding:6.6vh 6.18vh;
 }
 
 ul li #spis
 {
   display: inline-block;
   list-style-type: none;
-  padding:6.6vh 3.8vh;
+  padding:6.6vh 3.9vh;
 }
 
 ul li #omos
 {
   display: inline-block;
   list-style-type: none;
-  padding:6.6vh 7.6vh;
+  padding:6.6vh 7.7vh;
 }
 
 ul li #kontakt
 {
   display: inline-block;
   list-style-type: none;
-  padding:6.6vh 6.08vh;
+  padding:6.6vh 6.18vh;
 }
 
 
@@ -147,7 +148,7 @@ ul li #kontakt:hover
 {
 #navbar 
 	{
-	width: 60%;
+	
 	}
 }
 
