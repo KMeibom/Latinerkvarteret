@@ -61,6 +61,7 @@ nav a
 }
 
 
+
 /*STØRRELSEN PÅ DE FORSKELLIGE MENU KNAPPER */
 
 ul li #oplevelser
@@ -137,7 +138,8 @@ ul li #kontakt:hover
 
 @media screen and (max-width:1024px)
 {
-
+#navbar {width: 60%;
+ }
 }
 
 @media screen and (max-width:1920px)
@@ -159,14 +161,16 @@ ul li #kontakt:hover
 		height: 92vh;
 		top: 8vh;
 		background-color: #F3F3F3F3;
-		display:flex;
+		display: flex;
 		flex-direction: column;
 		align-items: center;
-		width: 30%;
+		width: 50%;
+		transform: translateX(100%);
 	}
 
 	#navbar li
 	{
 		opacity:0;
 	}
+
 }
