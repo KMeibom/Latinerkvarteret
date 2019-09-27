@@ -1,187 +1,249 @@
 @charset "utf-8";
 /* CSS Document */
+
 *
 {
-	margin: 0px;
-	padding: 0px;
-	box-sizing: border-box;
-}
-
-.menucontainer
-{
 	margin:0px;
-}
-
-#navbar
-{
-  text-transform:uppercase;
-	font-family: 'Montserrat', sans-serif;
-}
-
-.logo img
-{
-	max-width: 90%;
-	height:auto;
-	margin-left:0.6vh;
-
-}
-#navbar li
-{
-  display:inline;
-  list-style:none;
+	padding:0px;
+	box-sizing:border-box;
 }
 
 nav
 {
 	display:flex;
-	justify-content: space-between;
-	align-items: center;
-}
-
-.menu
-{
-	display:flex;
-	justify-content: space-between;
+	justify-content:space-between;
 	align-items:center;
-	min-height: 8vh;
+	min-height:8vh;
 	background-color:#F3F3F3F3;
-	position:absolute;
+	font-family:'Montserrat', sans-serif;
+	text-transform:uppercase;
 }
 
-.menu li
+.nav-links
 {
-	display:inline;
+  	display:flex;
+	justify-content:space-around;
+}
+
+.nav-links li 
+{
 	list-style:none;
-	
+	display:inline;
 }
 
-#navbar
+.nav-links a
 {
-padding: none;
-background-color: #F3F3F3F3;
-text-align: center;
+	color: black;
+	text-decoration:none;
+	letter-spacing:3px;
 }
 
-nav a
+.logo img
 {
-  color: black;
-  text-decoration: none;
+	max-width:90%;
+	height:auto;
+	margin-left:6.6vh;
 }
 
+.burger
+{
+	display:none;
+	cursor:pointer;
+}
 
+.burger div:hover
+{
+	cursor:pointer;
+	background-color:#3F3F3F;
+}
+
+.burger div
+{
+	width:25px;
+	height:2px;
+	background-color:black;
+	margin:5px;
+	transition:all 0.3s ease;
+}
 
 /*STØRRELSEN PÅ DE FORSKELLIGE MENU KNAPPER */
 
-ul li #oplevelser
+nav ul li #oplevelser
 {
-  display: inline-block;
-  list-style-type: none;
-  padding:6.6vh 3.9vh;
+	display:inline-block;
+	list-style-type:none;
+	padding:6.6vh 3.9vh;
+	text-decoration:none;
+	color:black;
 }
 
-ul li #shopping
+nav ul li #shopping
 {
-  display: inline-block;
-  list-style-type: none;
-  padding:6.6vh 6.18vh;
+	display:inline-block;
+	list-style-type:none;
+	padding:6.6vh 6.18vh;
+	text-decoration:none;
+	color:black;
 }
 
-ul li #spis
+nav ul li #spis
 {
-  display: inline-block;
-  list-style-type: none;
-  padding:6.6vh 3.9vh;
+	display:inline-block;
+	list-style-type:none;
+	padding: 6.6vh 3.69vh;
+	text-decoration:none;
+	color:black;
 }
 
-ul li #omos
+nav ul li #omos
 {
-  display: inline-block;
-  list-style-type: none;
-  padding:6.6vh 7.7vh;
+	display:inline-block;
+	list-style-type:none;
+	padding:6.6vh 5.99vh;
+	text-decoration:none;
+	color:black;
 }
 
-ul li #kontakt
+nav ul li #kontakt
 {
-  display: inline-block;
-  list-style-type: none;
-  padding:6.6vh 6.18vh;
+	display: inline-block;
+	list-style-type: none;
+	padding:6.6vh 6.18vh;
+	text-decoration:none;
+	color:black;
 }
 
 
 /* DE FORSKELLIGE HOVER FARVER*/
- ul li #oplevelser:hover
+ nav ul li #oplevelser:hover
 {
-  background: #009899;
-	font-weight: bold;
+	background-color:#009899;
+	font-weight:bold;
 	color:white;
 }
 
-ul li #shopping:hover
+nav ul li #shopping:hover
 {
-	background:#99C941;
-	font-weight: bold;
+	background-color:#99C941;
+	font-weight:bold;
+	color:white;
+	overflox-x:hidden;
+}
+
+nav ul li #spis:hover
+{
+	background-color: #EDCD27;
+	font-weight:bold;
 	color:white;
 }
 
-ul li #spis:hover
+nav ul li #omos:hover
 {
-	background: #EDCD27;
-	font-weight: bold;
+	background-color:#FD3301;
+	font-weight:bold;
 	color:white;
 }
 
-ul li #omos:hover
+nav ul li #kontakt:hover
 {
-	background: #FD3301;
-	font-weight: bold;
+	background-color:#F8B5D1;
+	font-weight:bold;
 	color:white;
 }
 
-ul li #kontakt:hover
+@media screen and (max-width:1080px)
 {
-	background: #F8B5D1;
-	font-weight: bold;
-	color:white;
-}
-
-@media screen and (max-width:1024px)
-{
-#navbar 
+	.nav-links
 	{
-	
+		width:60%;
 	}
-}
-
-@media screen and (max-width:1920px)
-{
-
 }
 
 @media screen and (max-width:768px)
 {
-
+ul.nav-links.nav-active
+	{
+		max-height: 200.6vh;
+    	max-width: 33%; 
+    	overflow: visible;
+    	padding-top:5%;
+		padding-bottom:5%;
+		position:absolute;
+	}
+	
 	body
 	{
-	overflow-x: hidden;
+		overflow-x:hidden;
 	}
-
-	#navbar
+	
+	.logo img
 	{
-		position: absolute;
-		right: 0px;
-		height: 92vh;
-		top: 8vh;
-		background-color: #F3F3F3F3;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		width: 50%;
-		transform: translateX(100%);
+		max-width:75%;
+		height:auto;
+		margin-left:6.6vh;
+	
+	
 	}
-
-	#navbar li
+	
+	.nav-links
+	{
+		position:absolute;
+		right:0px;
+		max-height:82vh;
+		top:8vh;
+		background-color:#F3F3F3F3;
+		display:flex;
+		flex-direction:column;
+		align-items:center;
+		width:37%;
+		transform:translateX(100%);
+		transition:transform 0.5s ease-in;
+	}
+	.nav-links li
 	{
 		opacity:0;
 	}
+	
+	.burger
+	{
+		display:block;
+		margin-right:6.6vh;
+	}
+}
 
+.nav-active
+{
+	transform:translateX(0%);
+	
+}
+
+
+@keyframes navLinkFade
+{
+	from
+	{
+		opacity:0;
+		transform:translateX(50px);
+	}
+	
+	to
+	{
+		opacity:1;
+		transform:translateX(0px);
+	}
+}
+
+.toggle .line1
+{
+	transform:rotate(-45deg) translate(-4px,6px);
+}
+
+.toggle .line2
+{
+	opacity:0;
+}
+
+.toggle .line3
+{
+	transform:rotate(45deg) translate(-4px,-6px);
 }
