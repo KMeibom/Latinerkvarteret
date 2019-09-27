@@ -2,6 +2,7 @@
 <html>
 	<head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Latinerkvarteret</title>
 		<link rel="stylesheet" href="css/flexboxgrid.css">
 		<link rel="stylesheet" href="css/style.css">
@@ -10,25 +11,26 @@
 	</head>
 
 <body>
-	<header id="headermenu">
-		<article class="menucontainer">
-			<section class="menu">
-				<section class="col-xs-14 col-sm-14 col-md-14 col-lg-14">
-					<nav id="navbar">
+	<nav>
+				<!-- <section class="col-xs-12 col-sm-12 col-md-12 col-lg-12">!-->
 						<article class="logo">
-						<img src="images/logo.png" alt="latinerkvarteret logo">
+						<a class="logo" href="#"><img src="images/logo.png" id="logo" alt="latinerkvarteret logo"></a>
 						</article>
-						<ul>
-                <li><a id="oplevelser" href="oplevelser.html">Oplevelser</a></li>
-                <li><a id="shopping" href="services.html">Shopping</a></li>
-                <li><a id="spis" href="spisogdrik.html">Spis og drik</a></li>
-                <li><a id="omos" href="omos.html">Om os</a></li>
-			    <li><a id="kontakt" href="kontakt.html">Kontakt</a></li>
+						<ul class="nav-links">
+                <li><a id="oplevelser" href="#">Oplevelser</a></li>
+                <li><a id="shopping" href="#">Shopping</a></li>
+                <li><a id="spis" href="#">Spis og drik</a></li>
+                <li><a id="omos" href="#">Om os</a></li>
+			    <li><a id="kontakt" href="#">Kontakt</a></li>
 						</ul>
-					</nav>
-				</section>
-			</section>
-		</article>
-	</header>
+		<div class="burger">
+			<div class="line1"></div>
+			<div class="line2"></div>
+			<div class="line3"></div>
+		</div>
+				<!--</section>!-->
+		</nav>
+	
+	<script src="javascript.js"></script>
 </body>
 </html>
