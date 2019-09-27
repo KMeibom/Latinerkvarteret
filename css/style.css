@@ -249,6 +249,9 @@ ul.nav-links.nav-active
 
 footer{
 
-	background-color: black;
-	
+	background-color:#41728b;
+	padding: 40px 40px;
+  margin-top: 20px;
+  overflow: hidden;
+
 }
