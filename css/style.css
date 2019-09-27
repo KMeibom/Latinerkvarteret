@@ -25,7 +25,7 @@ nav
 	justify-content:space-around;
 }
 
-.nav-links li 
+.nav-links li
 {
 	list-style:none;
 	display:inline;
@@ -127,7 +127,6 @@ nav ul li #shopping:hover
 	background-color:#99C941;
 	font-weight:bold;
 	color:white;
-	overflox-x:hidden;
 }
 
 nav ul li #spis:hover
@@ -164,27 +163,27 @@ nav ul li #kontakt:hover
 ul.nav-links.nav-active
 	{
 		max-height: 200.6vh;
-    	max-width: 33%; 
+    	max-width: 33%;
     	overflow: visible;
     	padding-top:5%;
 		padding-bottom:5%;
 		position:absolute;
 	}
-	
+
 	body
 	{
 		overflow-x:hidden;
 	}
-	
+
 	.logo img
 	{
 		max-width:75%;
 		height:auto;
 		margin-left:6.6vh;
-	
-	
+
+
 	}
-	
+
 	.nav-links
 	{
 		position:absolute;
@@ -203,7 +202,7 @@ ul.nav-links.nav-active
 	{
 		opacity:0;
 	}
-	
+
 	.burger
 	{
 		display:block;
@@ -214,7 +213,7 @@ ul.nav-links.nav-active
 .nav-active
 {
 	transform:translateX(0%);
-	
+
 }
 
 
@@ -225,7 +224,7 @@ ul.nav-links.nav-active
 		opacity:0;
 		transform:translateX(50px);
 	}
-	
+
 	to
 	{
 		opacity:1;
