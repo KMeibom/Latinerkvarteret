@@ -29,7 +29,7 @@ const navSlide=()=>
 
 navSlide();
 
-
+/*
 if(burger.onclick)
 {
 	var logo = document.getElementsByClassName(".logo").width="30";
@@ -39,3 +39,4 @@ else
 {
 	var logo = document.getElementsByClassName(".logo").width="80";	
 }
+*/
