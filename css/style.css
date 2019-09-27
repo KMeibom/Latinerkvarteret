@@ -247,6 +247,67 @@ ul.nav-links.nav-active
 	transform:rotate(45deg) translate(-4px,-6px);
 }
 
+
+
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -160px;
+}
+
+/* mellemrum mellem hver kollonne */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* De 3 columner ved siden af hindanden */
+.column {
+  float: left;
+  width: 25%;
+
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Responsive layout -laver en to coulmn istedet for 3 */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - gør at de to columns går op på hinanden istedet ved siden af hinanden */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+
+
 footer{
 
 	background-color:#41728b;
