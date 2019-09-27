@@ -246,3 +246,8 @@ ul.nav-links.nav-active
 {
 	transform:rotate(45deg) translate(-4px,-6px);
 }
+
+footer{
+
+	background-color: black;
+}
