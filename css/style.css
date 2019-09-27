@@ -307,19 +307,20 @@ h1 {
     width: 100%;
   }
 
-	html {
-	  height: 100%;
-	  box-sizing: border-box;
+*	{
+
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
 
 	}
 
 
-	.footer {
-	  position: absolute;
-	  right: 0;
-	  bottom: 0;
-	  left: 0;
-	  padding: 1rem;
+	footer {
+
 	  background-color: #41728b;
 	  text-align: center;
+		padding: 20px;
+
 	}
