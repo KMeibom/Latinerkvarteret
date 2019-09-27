@@ -316,11 +316,13 @@ h1 {
 
 	}
 
-
-	footer {
-
-	  background-color: #41728b;
-	  text-align: center;
-		padding: 20px;
+  footer {
+  text-align: center;
+  background-color: #41728b;
+  color: #fff;
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 
 	}
