@@ -314,12 +314,12 @@ h1 {
 	}
 
 
-	.footer {
+	#footer {
 	  position: absolute;
 	  right: 0;
 	  bottom: 0;
 	  left: 0;
 	  padding: 1rem;
-	  background-color: #efefef;
+	  background-color: #41728b;
 	  text-align: center;
 	}
