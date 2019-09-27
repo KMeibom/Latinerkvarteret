@@ -321,12 +321,12 @@ html,body {
 
 }
 
-#container{
+#foden {
 	min-height: 100%;
 
 }
 
-#main{
+#main {
 	overflow: auto;
 	padding-bottom: 100px;
 
