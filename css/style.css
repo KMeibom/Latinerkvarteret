@@ -311,9 +311,9 @@ h1 {
 footer{
 
 	background-color:#41728b;
-	position: relative;
+	position: bottom;
   height: 100px;
   margin-top: -100px;
-	clear: both;
+
 
 }
