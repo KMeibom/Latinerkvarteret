@@ -29,7 +29,7 @@ const navSlide=()=>
 
 navSlide();
 
-
+/*
 	var i = 0; // Start point
 	var images = [];
 	var time = 1000;
@@ -54,7 +54,7 @@ navSlide();
 	}
 
 	window.onload = changeImg;
-
+*/
 /*
 if(burger.onclick)
 {
