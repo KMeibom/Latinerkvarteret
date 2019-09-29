@@ -115,7 +115,6 @@ nav ul li #kontakt
 
 .menuTitel {
     display: block;
-    color: #353535;
     font-weight: 700;
     text-transform: uppercase;
     white-space: normal;
@@ -127,7 +126,6 @@ nav ul li #kontakt
     height: 40px;
     padding-top: 5px;
     font-size: 0.6rem;
-    color: gray;
     white-space: normal;
 }
 
