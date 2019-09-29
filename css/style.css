@@ -70,11 +70,10 @@ nav
 
 /*STØRRELSEN PÅ DE FORSKELLIGE MENU KNAPPER */
 
-nav ul li #oplevelser
+nav ul li .oplevelser
 {
 	display:inline-block;
 	list-style-type:none;
-	padding:6.6vh 3.9vh;
 	text-decoration:none;
 	color:black;
 }
@@ -115,9 +114,39 @@ nav ul li #kontakt
 	color:black;
 }
 
+.menuTitel {
+    display: block;
+    color: #353535;
+    font-weight: 700;
+    text-transform: uppercase;
+    white-space: normal;
+}
+
+.menuBeskrivelse {
+    overflow: hidden;
+    display: inline-block;
+    height: 40px;
+    padding-top: 5px;
+    font-size: 0.6rem;
+    color: gray;
+    white-space: normal;
+}
+
+nav li {
+    max-width: 170px;
+}
+
+nav li a {
+    display: inline-block;
+    max-width: 170px;
+    max-height: 8vh;
+    padding: 12px 18px 24px;
+    color: #353535;
+    background: transparent;
+}
 
 /* DE FORSKELLIGE HOVER FARVER*/
- nav ul li #oplevelser:hover
+ nav li #oplevelser:hover
 {
 	background-color:#009899;
 	font-weight:bold;
