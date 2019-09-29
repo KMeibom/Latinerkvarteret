@@ -8,6 +8,7 @@ body{
 	margin:0px;
 	padding:0px;
 	box-sizing:border-box;
+	max-width: 1920px;
 }
 
 nav
@@ -25,13 +26,14 @@ nav
 {
   	display:flex;
 	justify-content:space-around;
+	margin-right:100px;
 }
 
 .nav-links li
 {
 	list-style:none;
 	display:inline;
-	margin:0px 15px;
+	margin-right:50px;
 }
 
 .nav-links a
@@ -39,6 +41,11 @@ nav
 	color: black;
 	text-decoration:none;
 	letter-spacing:3px;
+}
+
+.logo
+{
+	margin:0px 50px 0px 100px;
 }
 
 .logo img
@@ -96,7 +103,6 @@ nav li {
 	list-style-type:none;
 	text-decoration:none;
 	color:black;
-	
 }
 
 nav li a {
@@ -148,6 +154,7 @@ nav ul li #kontakt:hover
 	.nav-links
 	{
 		width:60%;
+		margin-right:100px;
 	}
 }
 
@@ -155,7 +162,7 @@ nav ul li #kontakt:hover
 {
 ul.nav-links.nav-active
 	{
-		max-height: 100%;
+		max-height: 82vh;
     	max-width: 35%;
     	overflow: visible;
     	padding-top:5%;
@@ -186,6 +193,8 @@ ul.nav-links.nav-active
 		align-items:center;
 		transform:translateX(100%);
 		transition:transform 0.5s ease-in;
+		margin:0px;
+		max-width:35%;
 	}
 	.nav-links li
 	{
@@ -235,20 +244,6 @@ ul.nav-links.nav-active
 .toggle .line3
 {
 	transform:rotate(45deg) translate(-4px,-6px);
-}
-
-
-
-
-/* Center website */
-section {
-	max-width: 1920px;
-  margin: auto;
-}
-article{
-	max-width: 1920px;
-  margin: auto;
-
 }
 
 h1 {
