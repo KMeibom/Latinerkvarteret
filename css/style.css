@@ -68,51 +68,6 @@ nav
 	transition:all 0.3s ease;
 }
 
-/*STØRRELSEN PÅ DE FORSKELLIGE MENU KNAPPER */
-
-nav ul li .oplevelser
-{
-	display:inline-block;
-	list-style-type:none;
-	text-decoration:none;
-}
-
-nav ul li #shopping
-{
-	display:inline-block;
-	list-style-type:none;
-	padding:6.6vh 6.18vh;
-	text-decoration:none;
-	color:black;
-}
-
-nav ul li #spis
-{
-	display:inline-block;
-	list-style-type:none;
-	padding: 6.6vh 3.69vh;
-	text-decoration:none;
-	color:black;
-}
-
-nav ul li #omos
-{
-	display:inline-block;
-	list-style-type:none;
-	padding:6.6vh 5.99vh;
-	text-decoration:none;
-	color:black;
-}
-
-nav ul li #kontakt
-{
-	display: inline-block;
-	list-style-type: none;
-	padding:6.6vh 6.18vh;
-	text-decoration:none;
-	color:black;
-}
-
 .menuTitel {
     display: block;
     font-weight: 700;
@@ -137,13 +92,18 @@ nav ul li #kontakt
 nav li {
     max-width: 170px;
 	max-height:8vh;
+	display:inline-block;
+	list-style-type:none;
+	text-decoration:none;
+	color:black;
+	
 }
 
 nav li a {
     display: inline-block;
     max-width: 170px;
     max-height: 8vh;
-    padding: 12px 18px 24px;
+    padding: 12px 18px 48px;
     color: #353535;
 }
 
