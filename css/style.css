@@ -129,6 +129,11 @@ nav ul li #kontakt
     white-space: normal;
 }
 
+.menuBeskrivelse:hover
+{
+	font-weight:normal;
+}
+
 nav li {
     max-width: 170px;
 	max-height:8vh;
