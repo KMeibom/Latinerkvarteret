@@ -31,6 +31,7 @@ nav
 {
 	list-style:none;
 	display:inline;
+	margin:0px 15px;
 }
 
 .nav-links a
@@ -42,9 +43,8 @@ nav
 
 .logo img
 {
-	max-width:90%;
+	max-width:100%;
 	height:auto;
-	margin-left:6.6vh;
 }
 
 .burger
@@ -70,7 +70,7 @@ nav
 
 .menuTitel {
     display: block;
-    font-weight: 700;
+    font-weight: Bold;
     text-transform: uppercase;
     white-space: normal;
 }
@@ -147,7 +147,7 @@ nav ul li #kontakt:hover
 {
 	.nav-links
 	{
-		width:80%;
+		width:60%;
 	}
 }
 
@@ -155,8 +155,8 @@ nav ul li #kontakt:hover
 {
 ul.nav-links.nav-active
 	{
-		max-height: 200.6vh;
-    	max-width: 33%;
+		max-height: 100%;
+    	max-width: 35%;
     	overflow: visible;
     	padding-top:5%;
 		padding-bottom:5%;
@@ -172,9 +172,6 @@ ul.nav-links.nav-active
 	{
 		max-width:75%;
 		height:auto;
-		margin-left:6.6vh;
-
-
 	}
 
 	.nav-links
@@ -187,13 +184,13 @@ ul.nav-links.nav-active
 		display:flex;
 		flex-direction:column;
 		align-items:center;
-		width:37%;
 		transform:translateX(100%);
 		transition:transform 0.5s ease-in;
 	}
 	.nav-links li
 	{
 		opacity:0;
+		margin:0px;
 	}
 
 	.burger
@@ -245,11 +242,11 @@ ul.nav-links.nav-active
 
 /* Center website */
 section {
-	max-width: 1000px;
+	max-width: 1920px;
   margin: auto;
 }
 article{
-	max-width: 1000px;
+	max-width: 1920px;
   margin: auto;
 
 }
