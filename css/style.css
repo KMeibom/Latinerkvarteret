@@ -75,7 +75,6 @@ nav ul li .oplevelser
 	display:inline-block;
 	list-style-type:none;
 	text-decoration:none;
-	color:black;
 }
 
 nav ul li #shopping
@@ -134,6 +133,7 @@ nav ul li #kontakt
 
 nav li {
     max-width: 170px;
+	max-height:8vh;
 }
 
 nav li a {
@@ -142,7 +142,6 @@ nav li a {
     max-height: 8vh;
     padding: 12px 18px 24px;
     color: #353535;
-    background: transparent;
 }
 
 /* DE FORSKELLIGE HOVER FARVER*/
