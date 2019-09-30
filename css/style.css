@@ -17,7 +17,7 @@ body{
 	font-family:'Montserrat', sans-serif;
 	text-transform: uppercase;
 	padding-bottom: 2%;
-	font-size:3vw;
+	font-size:2vw;
 }
 nav
 {
@@ -174,6 +174,7 @@ nav ul li #kontakt:hover
 	background-color: #f1f1f1;
     padding: 4% 2%;
     text-align: center;
+	margin:2% 100px;
 }
 .snippet h2
 {
@@ -184,7 +185,7 @@ nav ul li #kontakt:hover
 	font-family:'Montserrat', sans-serif;
 	padding:5%;
 	background-color:white;
-	
+	line-height:2vh;
 }
 
 @media screen and (max-width:1080px)
