@@ -97,7 +97,7 @@ nav
 }
 
 nav li {
-    max-width: 170px;
+    max-width: 200px;
 	max-height:8vh;
 	display:inline-block;
 	list-style-type:none;
@@ -107,7 +107,7 @@ nav li {
 
 nav li a {
     display: inline-block;
-    max-width: 170px;
+    max-width: 200px;
     max-height: 8vh;
     padding: 12px 18px 48px;
     color: #353535;
@@ -147,6 +147,18 @@ nav ul li #kontakt:hover
 	background-color:#F8B5D1;
 	font-weight:bold;
 	color:white;
+}
+
+.gallery img
+{
+	width:1720px;
+	height:480px;
+}
+
+.gallery
+{
+	align-content: center;
+	margin:25px 100px;
 }
 
 @media screen and (max-width:1080px)
