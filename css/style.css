@@ -91,7 +91,7 @@ nav
     white-space: normal;
 }
 
-.menuBeskrivelse:hover
+.nav-links a:hover
 {
 	font-weight:normal;
 }
@@ -185,6 +185,7 @@ ul.nav-links.nav-active
 	body
 	{
 		overflow-x:hidden;
+		background-color:#8DB5C9;
 	}
 
 	.logo img
@@ -219,6 +220,17 @@ ul.nav-links.nav-active
 		display:block;
 		margin-right:6.6vh;
 	}
+	
+	.gallery img
+{
+	width:100%;
+	height:auto;
+}
+
+.gallery
+{
+	align-: space-between;
+}
 }
 
 .nav-active
@@ -226,7 +238,18 @@ ul.nav-links.nav-active
 	transform:translateX(0%);
 
 }
+#snippet
+{
+	width: 98%;
+	margin:1%
+}
 
+.column
+{
+  float: left;
+  width: 25%;
+
+}
 
 @keyframes navLinkFade
 {
@@ -261,11 +284,6 @@ ul.nav-links.nav-active
 h1 {
   font-size: 50px;
   word-break: break-all;
-}
-
-#snippet{
-	width: 50%;
-
 }
 
 .row {
