@@ -29,16 +29,16 @@ const navSlide=()=>
 
 navSlide();
 
-/*
+
 	var i = 0; // Start point
 	var images = [];
-	var time = 1000;
+	var time = 4000;
 
 	// Image List
-	images[0] = 'image1.jpg';
-	images[1] = 'image2.jpg';
-	images[2] = 'image3.jpg';
-	images[3] = 'image4.jpg';
+	images[0] = 'images/image1.jpg';
+	images[1] = 'images/image2.jpg';
+	images[2] = 'images/image3.jpg';
+	images[3] = 'images/image4.jpg';
 
 	// Change Image
 	function changeImg(){
@@ -54,7 +54,6 @@ navSlide();
 	}
 
 	window.onload = changeImg;
-*/
 /*
 if(burger.onclick)
 {
