@@ -291,15 +291,16 @@ h1 {
 }
 
 /* mellemrum mellem hver kollonne */
-.row,
-.row > .column {
-  padding: 8px;
+.row
+{
+	align-content:space-around;
+	display:flex;
 }
 
 /* De 3 columner ved siden af hindanden */
 .column {
   float: left;
-  width: 25%;
+  width: 30%;
 
 }
 
