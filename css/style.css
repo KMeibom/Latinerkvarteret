@@ -3,6 +3,7 @@
 body{
 	font-family:'Montserrat', sans-serif;
 }
+
 *
 {
 	margin:0px;
@@ -11,6 +12,13 @@ body{
 	max-width: 1920px;
 }
 
+h1
+{
+	font-family:'Montserrat', sans-serif;
+	text-transform: uppercase;
+	padding-bottom: 2%;
+	font-size:5vw;
+}
 nav
 {
 	display:flex;
@@ -161,6 +169,24 @@ nav ul li #kontakt:hover
 	margin:25px 100px;
 }
 
+.LKSnippet
+{
+	background-color: #f1f1f1;
+    padding: 4% 2%;
+    text-align: center;
+}
+.snippet h2
+{
+	padding:2%;
+}
+.snippet p
+{
+	font-family:'Montserrat', sans-serif;
+	padding:5%;
+	background-color:white;
+	
+}
+
 @media screen and (max-width:1080px)
 {
 	.nav-links
@@ -238,10 +264,12 @@ ul.nav-links.nav-active
 	transform:translateX(0%);
 
 }
-#snippet
+.snippetcontent
 {
-	width: 98%;
-	margin:1%
+	width: 60%;
+	margin:1% 20%;
+	text-align:center;
+	align-content:space-around;
 }
 
 .column
@@ -293,13 +321,13 @@ h1 {
 /* mellemrum mellem hver kollonne */
 .row
 {
-	align-content:space-around;
-	display:flex;
+	align-content:space-between;
+	display:inline-flex;
 }
 
 /* De 3 columner ved siden af hindanden */
 .column {
-  float: left;
+  float: flex;
   width: 30%;
 
 }
@@ -312,35 +340,23 @@ h1 {
 }
 
 /* Content */
-.content {
+.content
+{
   background-color: #f1f1f1;
   padding: 10px;
   text-align: center;
 }
 
-/* Responsive layout -laver en to coulmn istedet for 3 */
-@media screen and (max-width: 900px) {
-  .column {
-    width: 50%;
-  }
-}
 
-/* Responsive layout - gør at de to columns går op på hinanden istedet ved siden af hinanden */
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-  }
-}
-
-	html {
+html
+{
 	  height: 100%;
 	  box-sizing: border-box;
 
-	}
+}
 
-
-
-footer{
+footer
+{
 	position: absolute;
 	bottom: -70;
 	width: 100%;
