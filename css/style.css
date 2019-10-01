@@ -248,8 +248,15 @@ nav ul li #kontakt:hover
 	.copyright
 	{
 		align-content: center;
-		margin:2% 1%;
+		margin:2% 40%;
 		width:100%;
+	}
+	
+	.kontakContainer
+	{
+		display:block;
+		justify-content:space-between;
+		position:relative;
 	}
 	
 	/*end of media screen 1921*/
@@ -342,7 +349,6 @@ ul.nav-links.nav-active
 	{
 		align-content: center;
 		margin:5% 25%;
-		box-sizing: border-box;
 	}
 	
 	.copyright p
