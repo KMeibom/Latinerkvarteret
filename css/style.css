@@ -41,15 +41,7 @@ body{
 
 .logo
 {
-	margin:0px 80px 0px 100px;
-
-}
-
-.logo img
-{
-	margin-left: -100px;
-	max-width:100%;
-	height:auto;
+	margin:0px 50px 0px 50px;
 }
 
 .burger
@@ -176,8 +168,7 @@ footer h2
 	{
   	display:inline-table;
 	justify-content:space-around;
-	margin-right:100px;
-	width:200%;
+	width:80%;
 	}
 
 	.nav-links li
@@ -315,13 +306,23 @@ footer h2
 		padding:5%;
 		align-items: center;
 	}
+	
+	.logo
+	{
+		margin: 0px 100px 0px 100px;
+	}
+	.logo img
+	{
+		max-width:80%;
+		height:auto;
+	}
+
 
 	/*end of media screen 1921*/
 }
 
 @media screen and (max-width:768px)
 {
-
 	*
 	{
 	margin:0px;
@@ -349,16 +350,7 @@ ul.nav-links.nav-active
 	{
 		padding-bottom: 7.84%;
 	}
-	.logo
-	{
-		margin: 0px 50px 0px 100px;
-	}
-	.logo img
-	{
-		max-width:75%;
-		height:auto;
-	}
-
+	
 	.nav-links
 	{
 		position:absolute;
