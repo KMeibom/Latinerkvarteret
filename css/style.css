@@ -454,7 +454,15 @@ ul.nav-links.nav-active
     justify-content: center;
 	}
 
-
+	.logo
+	{
+		margin: 0px 50px 0px 50px;
+	}
+	.logo img
+	{
+		max-width:70%;
+		height:auto;
+	}
 	/* end of media screen 768 */
 }
 
