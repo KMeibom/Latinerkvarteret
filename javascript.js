@@ -32,7 +32,7 @@ navSlide();
 
 	var i = 0; // Start point
 	var images = [];
-	var time = 4000;
+	var time = 5000;
 
 	// Image List
 	images[0] = 'images/streetart.jpg';
