@@ -308,7 +308,8 @@ ul.nav-links.nav-active
 	
 	.row
 	{
-		width:100%;
+		width:95%;
+		padding:-5%;
 	}
 	
 	/* end of media screen 768 */
