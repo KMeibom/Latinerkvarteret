@@ -8,7 +8,7 @@ const navSlide=()=>
 	{
 		//toggle nav
 		nav.classList.toggle('nav-active');
-		
+
 			//animate links
 	navLinks.forEach((link,index)=>
 	{
@@ -18,13 +18,13 @@ const navSlide=()=>
 			}
 		else
 		{
-		link.style.animation=`navLinkFade 0.5s ease forwards ${index / 5 + 0.5}s`;	
+		link.style.animation=`navLinkFade 0.5s ease forwards ${index / 5 + 0.5}s`;
 		}
 	});
 		//burger animation
 		burger.classList.toggle('toggle');
 });
-	
+
 }
 
 navSlide();
@@ -35,10 +35,10 @@ navSlide();
 	var time = 4000;
 
 	// Image List
-	images[0] = 'images/image1.jpg';
-	images[1] = 'images/image2.jpg';
-	images[2] = 'images/image3.jpg';
-	images[3] = 'images/image4.jpg';
+	images[0] = 'images/streetart.jpg';
+	images[1] = 'images/gadefest.jpg';
+	images[2] = 'images/shopping2.jpg';
+	images[3] = 'images/streetfood.jpg';
 
 	// Change Image
 	function changeImg(){
