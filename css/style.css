@@ -157,25 +157,6 @@ nav ul li #kontakt:hover
 	color:white;
 }
 
-.gallery img
-{
-	width:1720px;
-	height:480px;
-}
-
-.gallery
-{
-	align-content: center;
-	margin:25px 100px;
-}
-
-.LKSnippet
-{
-	background-color: #f1f1f1;
-    padding: 4% 2%;
-    text-align: center;
-	margin:10% 100px;
-}
 .snippet h2
 {
 	padding:2%;
@@ -188,17 +169,67 @@ nav ul li #kontakt:hover
 	line-height:2vh;
 }
 
-@media screen and (max-width:1080px)
+@media screen and (max-width:1921px)
 {
 	.nav-links
 	{
 		width:60%;
 		margin-right:100px;
 	}
+	
+	.column
+	{
+		float:left;
+		width: 31.95%;
+	}
+	
+	.content
+	{
+		overflow-x: hidden;
+		background-color: #f1f1f1;
+		padding: 25px;
+		text-align: center;
+		align-content: center;
+		margin:5% 10% 10%;
+	}
+	
+	.row
+	{
+		align-items: stretch;
+		align-content:space-between;
+		display:inline-flex;
+		content:flex;
+		width:100%;
+		margin:2%;
+		box-sizing:content-box;
+	}
+	
+	.gallery img
+	{
+	width:1720px;
+	height:480px;
+	}
+
+	.gallery
+	{
+	align-content: center;
+	margin:2% 5%;
+	}
+
+	.LKSnippet
+	{
+	background-color: #f1f1f1;
+    padding: 4% 2%;
+    text-align: center;
+	margin:10% 5% 7%;
+	}
+	
+	/*end of media screen 1921*/
 }
 
 @media screen and (max-width:768px)
 {
+	
 ul.nav-links.nav-active
 	{
 		max-height: 82vh;
@@ -235,6 +266,7 @@ ul.nav-links.nav-active
 		transition:transform 0.5s ease-in;
 		margin:0px;
 		max-width:35%;
+		overflow-x: hidden;
 	}
 	.nav-links li
 	{
@@ -249,15 +281,37 @@ ul.nav-links.nav-active
 	}
 	
 	.gallery img
-{
-	width:100%;
-	height:auto;
-}
+	{
+		width:100%;
+		height:auto;
+	}
 
-.gallery
-{
-	align-: space-between;
-}
+	.gallery
+	{
+		align-: space-between;
+	}
+	
+	.column
+	{
+		width:100%;
+		margin:2% 5%;
+	}
+	
+	.content
+	{
+	overflow-x: hidden;
+	background-color: #f1f1f1;
+	text-align: center;
+	align-content: center;
+	margin:5% 10% 10%;
+	}
+	
+	.row
+	{
+		width:100%;
+	}
+	
+	/* end of media screen 768 */
 }
 
 .nav-active
@@ -273,11 +327,9 @@ ul.nav-links.nav-active
 	align-content:space-around;
 }
 
-.column
+.gallery img
 {
-  float: left;
-  width: 15%;
-
+	
 }
 
 @keyframes navLinkFade
@@ -313,34 +365,6 @@ ul.nav-links.nav-active
 h1 {
   font-size: 50px;
   word-break: break-all;
-}
-
-.row
-{
-  	align-items: stretch;
-	align-content:space-between;
-	display:inline-flex;
-	content:flex;
-	width:100%;
-	margin:2%;
-	box-sizing:content-box;
-}
-
-/* De 3 columner ved siden af hindanden */
-.column 
-{
-	width: 31.95%;
-}
-
-/* Content */
-.content
-{
-	overflow-x: hidden;
-	background-color: #f1f1f1;
-	padding: 25px;
-	text-align: center;
-	align-content: center;
-	margin:5% 10% 10%;
 }
 
 .content img
