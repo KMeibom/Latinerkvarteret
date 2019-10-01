@@ -41,11 +41,13 @@ body{
 
 .logo
 {
-	margin:0px 50px 0px 100px;
+	margin:0px 80px 0px 100px;
+
 }
 
 .logo img
 {
+	margin-left: -100px;
 	max-width:100%;
 	height:auto;
 }
@@ -65,14 +67,14 @@ body{
 .burger div
 {
 	width:25px;
-	height:2px;
+	height:3px;
 	background-color:black;
 	margin:5px;
 	transition:all 0.3s ease;
 }
 
 .menuTitel {
-    
+
 	overflow: hidden;
     font-weight: Bold;
     text-transform: uppercase;
@@ -158,7 +160,7 @@ footer h2
 	max-width: 1920px;
 	overflow-x: hidden;
 	}
-	
+
 	nav
 	{
 	display:flex;
@@ -175,7 +177,7 @@ footer h2
   	display:inline-table;
 	justify-content:space-around;
 	margin-right:100px;
-	width:55%;
+	width:200%;
 	}
 
 	.nav-links li
@@ -192,7 +194,7 @@ footer h2
 	padding:2% 2%;
 	align-content: center;
 	}
-	
+
 	nav li
 	{
     max-width: 200px;
@@ -202,7 +204,7 @@ footer h2
 	color:black;
 	}
 
-	nav li a 
+	nav li a
 	{
     display: inline-block;
     max-width: 200px;
@@ -211,13 +213,13 @@ footer h2
 		align-items:center;
 		justify-content: space-around;
 	}
-	
+
 	.column
 	{
 		float:left;
 		width: 31.95%;
 	}
-	
+
 	.content
 	{
 		overflow-x: hidden;
@@ -227,7 +229,7 @@ footer h2
 		align-content: center;
 		margin:5% 10% 10%;
 	}
-	
+
 	.row
 	{
 		align-items: stretch;
@@ -237,7 +239,7 @@ footer h2
 		margin:2%;
 		box-sizing:content-box;
 	}
-	
+
 	.gallery img
 	{
 	width:1720px;
@@ -257,8 +259,8 @@ footer h2
     text-align: center;
 	margin:2% 5% 5%;
 	}
-	
-	footer 
+
+	footer
 	{
 	align-content: center;
 	position: absolute;
@@ -267,7 +269,7 @@ footer h2
 	color: white;
 	margin-top:2%;
 	}
-	
+
 	footer p
 	{
 		align-content: center;
@@ -276,14 +278,14 @@ footer h2
 		text-align: center;
 		margin-bottom:5vh;
 	}
-	
+
 	.copyright .col-sm-3
 	{
 		padding:5% 2%;
 		text-align: center;
 		width:60%;
 	}
-	
+
 	.kontaktContainer
 	{
 		justify-content:space-between;
@@ -295,7 +297,7 @@ footer h2
 		margin:2% 10% 0%;
 		box-sizing:content-box;
 	}
-	
+
 	.SoMe
 	{
 		display:inline-flex;
@@ -303,7 +305,7 @@ footer h2
 		align-items:center;
 		margin: 2% 10% 2%;
 	}
-	
+
 	.icon img
 	{
 		position:relative;
@@ -313,13 +315,13 @@ footer h2
 		padding:5%;
 		align-items: center;
 	}
-	
+
 	/*end of media screen 1921*/
 }
 
 @media screen and (max-width:768px)
 {
-	
+
 	*
 	{
 	margin:0px;
@@ -327,11 +329,11 @@ footer h2
 	max-width: 768px;
 	overflow-x: hidden;
 	}
-	
+
 ul.nav-links.nav-active
 	{
 		max-height: 82vh;
-    	max-width: 35%;
+    	max-width: 45%;
     	overflow: visible;
     	padding-top:5%;
 		padding-bottom:5%;
@@ -349,7 +351,7 @@ ul.nav-links.nav-active
 	}
 	.logo
 	{
-		margin: 0px 50px 0px 50px;
+		margin: 0px 50px 0px 100px;
 	}
 	.logo img
 	{
@@ -373,14 +375,14 @@ ul.nav-links.nav-active
 		max-width:35%;
 		overflow-x: hidden;
 	}
-	
+
 	.nav-links li
 	{
 		opacity:0;
 		margin:0px;
 		padding:2%;
 	}
-	
+
 	.nav-links a
 	{
 		margin-bottom:10%;
@@ -394,24 +396,24 @@ ul.nav-links.nav-active
 		padding-right:6.6vh;
 		overflow-y:hidden;
 	}
-	
+
 	.gallery img
 	{
-		width:100%;
+		width:100;
 		height:auto;
 	}
-	
+
 	.LKSnippet
 	{
 		margin:10% 5% 5%;
 	}
-	
+
 	.column
 	{
 		width:100%;
 		margin:2% 5%;
 	}
-	
+
 	.content
 	{
 	overflow-x: hidden;
@@ -420,18 +422,18 @@ ul.nav-links.nav-active
 	align-content: center;
 	margin:5% 10% 10%;
 	}
-	
+
 	.row
 	{
 		width:95%;
 	}
-	
+
 	.row h2
 	{
 		padding:2%;
 	}
 
-	
+
 	.copyright .col-sm-3
 	{
 		padding:5% 2%;
@@ -439,14 +441,14 @@ ul.nav-links.nav-active
 		width:60%;
 		margin:2%;
 	}
-	
+
 	.copyright p
 	{
 		font-size: 0.75rem;
 		max-width:100%;
 		align-items:center;
 	}
-	
+
 	.SoMe a
 	{
 		display:inline-flex;
@@ -459,8 +461,8 @@ ul.nav-links.nav-active
     align-items: center;
     justify-content: center;
 	}
-	
-	
+
+
 	/* end of media screen 768 */
 }
 
