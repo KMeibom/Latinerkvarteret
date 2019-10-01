@@ -16,39 +16,16 @@ body{
 {
 	font-family:'Montserrat', sans-serif;
 	text-transform: uppercase;
-	padding-bottom: 2%;
+	padding-bottom: 5%;
 	font-size:2vw;
 }
-nav
-{
-	display:flex;
-	justify-content:space-between;
-	align-items:center;
-	min-height:8vh;
-	background-color:#F3F3F3F3;
-	font-family:'Montserrat', sans-serif;
-	text-transform:uppercase;
-}
 
-.nav-links
+.snippetcontent
 {
-  	display:flex;
-	justify-content:space-around;
-	margin-right:100px;
-}
-
-.nav-links li
-{
-	list-style:none;
-	display:inline;
-	margin-right:50px;
-}
-
-.nav-links a
-{
-	color: black;
-	text-decoration:none;
-	letter-spacing:3px;
+	width: 60%;
+	margin:1% 20%;
+	text-align:center;
+	align-content:space-around;
 }
 
 .logo
@@ -104,23 +81,6 @@ nav
 	font-weight:normal;
 }
 
-nav li {
-    max-width: 200px;
-	max-height:8vh;
-	display:inline-block;
-	list-style-type:none;
-	text-decoration:none;
-	color:black;
-}
-
-nav li a {
-    display: inline-block;
-    max-width: 200px;
-    max-height: 8vh;
-    padding: 12px 18px 48px;
-    color: #353535;
-}
-
 /* DE FORSKELLIGE HOVER FARVER*/
  nav li #oplevelser:hover
 {
@@ -171,10 +131,55 @@ nav ul li #kontakt:hover
 
 @media screen and (max-width:1921px)
 {
+	nav
+	{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	min-height:8vh;
+	background-color:#F3F3F3F3;
+	font-family:'Montserrat', sans-serif;
+	text-transform:uppercase;
+	}
+
 	.nav-links
 	{
-		width:60%;
-		margin-right:100px;
+  	display:flex;
+	justify-content:space-around;
+	margin-right:100px;
+	width:60%;
+	}
+
+	.nav-links li
+	{
+	list-style:none;
+	display:inline;
+	margin-right:50px;
+	}
+
+	.nav-links a
+	{
+	color: black;
+	text-decoration:none;
+	letter-spacing:2px;
+	}
+	nav li
+	{
+    max-width: 200px;
+	max-height:8vh;
+	display:inline-block;
+	list-style-type:none;
+	text-decoration:none;
+	color:black;
+	}
+
+	nav li a 
+	{
+    display: inline-block;
+    max-width: 200px;
+    max-height: 8vh;
+    padding: 12px 18px 48px;
+    color: #353535;
 	}
 	
 	.column
@@ -224,6 +229,29 @@ nav ul li #kontakt:hover
 	margin:10% 5% 7%;
 	}
 	
+	footer
+	{
+	align-content: center;
+	position: absolute;
+	width: 100%;
+	background-color: #41728b;
+	color: white;
+	}
+	
+	footer p
+	{
+		align-content: center;
+		font-size:1rem;
+		width:100%;
+	}
+	
+	.copyright
+	{
+		align-content: center;
+		margin:2% 1%;
+		width:100%;
+	}
+	
 	/*end of media screen 1921*/
 }
 
@@ -243,7 +271,6 @@ ul.nav-links.nav-active
 	body
 	{
 		overflow-x:hidden;
-		background-color:#8DB5C9;
 	}
 
 	.logo img
@@ -309,9 +336,21 @@ ul.nav-links.nav-active
 	.row
 	{
 		width:95%;
-		padding:-5%;
 	}
 	
+	.copyright
+	{
+		align-content: center;
+		margin:5% 25%;
+		box-sizing: border-box;
+	}
+	
+	.copyright p
+	{
+		font-size: 0.75rem;
+		max-width:100%;
+		align-items:center;
+	}
 	/* end of media screen 768 */
 }
 
@@ -319,13 +358,6 @@ ul.nav-links.nav-active
 {
 	transform:translateX(0%);
 
-}
-.snippetcontent
-{
-	width: 60%;
-	margin:1% 20%;
-	text-align:center;
-	align-content:space-around;
 }
 
 .gallery img
@@ -379,14 +411,4 @@ html
 	  height: 100%;
 	  box-sizing: border-box;
 
-}
-
-footer
-{
-	position: absolute;
-	bottom: -70;
-	width: 100%;
-	height: 3.5rem;
-	background-color: #41728b;
-	color: white;
 }
